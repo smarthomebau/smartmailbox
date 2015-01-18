@@ -67,7 +67,7 @@ namespace SmartMailBox
 		}
 
 
-		// Callback for distance changes
+		// Callback for distance changes 
 		static void ReachedCB(BrickletDistanceUS sender, int distance)
 		{
 			if (CurrentState != State.locked)
